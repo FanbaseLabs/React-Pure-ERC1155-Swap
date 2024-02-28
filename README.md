@@ -1,7 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-You can use this ReactJS template, in conjunction with a plan at https;//www.plan.fanbase.io, to sell ERC 1155 tickets, cards, skins, songs, images, videos and other NFT media, from your own website. 
+
+You can use this ReactJS template, in conjunction with a plan at https;//www.plan.fanbase.io, 
+to sell ERC 1155 tickets, cards, skins, songs, images, videos and other NFT media, from your own website. 
 
 ## Available Scripts
 
