@@ -1,49 +1,40 @@
-# Getting Started
+# React Pure ERC1155 Swap (React.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Modern Neon Sci-Fi Fantasy Book Cover copy](https://github.com/FanbaseLabs/React-Aggregate-ERC20-Swap/assets/145924938/277ca724-0bf4-4815-a4f9-12a26d467a69)
 
-You can use this ReactJS template, in conjunction with a plan at https://www.plan.fanbase.io, 
-to sell ERC 1155 tickets, cards, skins, songs, images, videos and other NFT media, from your own website. 
+This repository is a minimal React app that renders `fanbase-pure-1155-swap-widget` on the main page.
 
-## Available Scripts
+## What is in the code
 
-In the project directory, you can run:
+- `src/App.tsx`: renders `NftExchangeWidget` from `fanbase-pure-1155-swap-widget`.
+- `src/index.tsx`: React entry point that mounts the app.
+- `src/App.css`: basic app-level styles.
 
-### `npm start`
+## Install and run
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install
+npm start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Open `http://localhost:3000`.
 
-### `npm test`
+## Available scripts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `npm start`: start local development server.
+- `npm run build`: create production build.
+- `npm test`: run tests.
+- `npm run eject`: eject CRA config (one-way operation).
 
-### `npm run build`
+## Widget docs
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Pure swap widget reference:
+https://fanbase-io.gitbook.io/docs/reference/swap-widget-sdk/pure-swap-widget
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Plan/app access:
+https://www.plan.fanbase.io
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Notes
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Current widget configuration is in `src/App.tsx` (`appId` and `chainId`).
+- If you change widget package usage in code, keep `package.json` dependencies in sync.
